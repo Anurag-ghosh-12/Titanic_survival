@@ -47,7 +47,7 @@ with st.sidebar:
     st.markdown("## About the Project")
     st.image("titanic.jpeg", use_column_width=True)
     st.markdown("""
-    <p style='color: yellow; font-weight: bold;'>Developed by Anurag Ghosh</p>
+    <p style='color: blue; font-weight: bold;'>Developed by Anurag Ghosh</p>
     <p>This application uses a Logistic Regression model to predict the survival of Titanic passengers based on their features such as class, gender, age, number of siblings/spouses aboard, number of parents/children aboard, fare, and port of embarkation.</p>
     <a href="https://github.com/Anurag-ghosh-12/CODSOFT/blob/main/Anurag_Project1_Titanic_Survival_Prediction.ipynb" target="_blank"><button style='background-color: lightblue; padding: 10px; border: none; border-radius: 5px;'>GitHub Repository</button></a>
     """, unsafe_allow_html=True)
